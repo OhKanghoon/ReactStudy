@@ -14,7 +14,7 @@
 
 > | Chapter | Subject                                  | Note | Presenter                                |
 > | ------- | ---------------------------------------- | ---- | ---------------------------------------- |
-> | 1       | [Create React App]() |      | [OhKanghoon](https://github.com/OhKanghoon) |
+> | 1       | [Create React App](https://github.com/OhKanghoon/ReactStudy/blob/master/1_CreateReactApp/README.md) |      | [OhKanghoon](https://github.com/OhKanghoon) |
 
 
 * **Section 2: React.js 심화**
