@@ -14,8 +14,8 @@
 
 > | Chapter | Subject                                  | Note | Presenter                                |
 > | ------- | ---------------------------------------- | ---- | ---------------------------------------- |
-> | 1       | [Create React App](https://github.com/OhKanghoon/ReactStudy/blob/master/1_CreateReactApp/README.md) |      | [OhKanghoon](https://github.com/OhKanghoon) |
-> | 2       | [JSX](https://github.com/OhKanghoon/ReactStudy/tree/master/2_JSX) |      | [OhKanghoon](https://github.com/OhKanghoon) |
+> | 0       | [VSCode React Setting]() |      | [OhKanghoon](https://github.com/OhKanghoon) |
+> | 1       | [JSX](https://github.com/OhKanghoon/ReactStudy/tree/master/2_JSX) |      | [OhKanghoon](https://github.com/OhKanghoon) |
 > | 2       | [Props, State, React Component Life Cycle]() |      | []() |
 > | 3       | [JavaScript ES6, ES7]() |      | []() |
 > | 4       | [React 이벤트 처리, 믹스인, 컴포넌트 구성]() |      | []() |
