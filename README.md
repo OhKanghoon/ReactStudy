@@ -15,7 +15,7 @@
 > | Chapter | Subject                                  | Note | Presenter                                |
 > | ------- | ---------------------------------------- | ---- | ---------------------------------------- |
 > | 0       | [VSCode React Setting]() |      | [OhKanghoon](https://github.com/OhKanghoon) |
-> | 1       | [JSX](https://github.com/OhKanghoon/ReactStudy/tree/master/2_JSX) |      | [OhKanghoon](https://github.com/OhKanghoon) |
+> | 1       | [JSX](https://github.com/OhKanghoon/ReactStudy/tree/master/1_JSX) |      | [OhKanghoon](https://github.com/OhKanghoon) |
 > | 2       | [Props, State, React Component Life Cycle]() |      | []() |
 > | 3       | [JavaScript ES6, ES7]() |      | []() |
 > | 4       | [React 이벤트 처리, 믹스인, 컴포넌트 구성]() |      | []() |
