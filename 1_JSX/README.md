@@ -21,7 +21,7 @@ $ create-react-app sampleproject
 
 생성된 폴더에서 `src/App.js` 를 열어보자
 
-```react
+```jsx
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -49,7 +49,7 @@ export default App;
 
  위에서 부터 살펴보면
 
-```react
+```jsx
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -61,7 +61,7 @@ import 문으로 'react' 에서 `React` 와 안에 있는 `Component` 를 불러
 
 
 
-```react
+```jsx
 class App extends Component {
   render() {
     return (
@@ -107,7 +107,7 @@ XML 형태의 `JSX` 를 `JavaScript` 로 변환해야 하기 때문에 몇가지
 
 흔히 HTML에서 `input` 태그를 사용할 때 태그를 안닫는 경우가 있는데, 리액트에서는 컴파일에 실패합니다.
 
-```react
+```jsx
 class App extends Component {
   render() {
     return (
@@ -123,7 +123,7 @@ class App extends Component {
 
 컴포넌트에서 여러 Element를 렌더링할 때 `container element` 안에 둬야한다.
 
-```react
+```jsx
 // 에러
 return  (
            <h1> Hello </h1>
@@ -183,7 +183,7 @@ function createElement<P extends HTMLAttributes<T>, T extends HTMLElement>(
 
 JSX 내부에 JavaScript 값을 사용해야 할 때는 `{ }` 를 사용한다.
 
-```react
+```jsx
 class App extends Component {
   render() {
     const name = "World"
@@ -210,7 +210,7 @@ JSX 내부에서는 `if 문` 을 사용할 수 없습니다. ㅜㅜ
 
 **삼항 연산자( ? : )** 와 **And 연산자(&&)** 를 사용하여 조건문을 사용한다.
 
-```react
+```jsx
 // 삼항 연산자
 class App extends Component {
   render() {
@@ -228,7 +228,7 @@ class App extends Component {
 }
 ```
 
-```react
+```jsx
 
 // And 연산자
 class App extends Component {
@@ -255,7 +255,7 @@ class App extends Component {
 
 JSX 에서 style 과 CSS Class 를 설정하는건 기존에 HTML에서 하던 방식과는 다르다.
 
-```react
+```jsx
 class App extends Component {
   render() {
     const style = {
@@ -275,7 +275,7 @@ class App extends Component {
 - inline으로 style을 넣어주는 경우는 위와 같이 처리한다.
 - HTML에서 클래스를 설정할 때 class를 사용했다면 JSX에서는 className을 사용한다.
 
-```react
+```jsx
 class App extends Component {
   render() {
     return (
