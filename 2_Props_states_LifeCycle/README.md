@@ -11,7 +11,7 @@
 
 1. props 렌더링
 
-   ```react
+   ```jsx
    import React, { Component } from 'react'
    
     class MyComponent extends Component {
@@ -29,7 +29,7 @@
 
 2. props 값 설정
 
-   ```react
+   ```jsx
    import React, { Component } from 'react'
    import MyComponent from './MyComponent'
    
@@ -48,7 +48,7 @@
 
    3.1 현재 속성 값을 지정하지 않을 경우 초기 값 설정
 
-```react
+```jsx
 import React, { Component } from 'react'
 import MyComponent from './MyComponent'
 
@@ -71,7 +71,7 @@ export default MyComponent
 
  3.2 클래스 내부의 선언 
 
-```react
+```jsx
 import React, { Component } from 'react'
 import MyComponent from './MyComponent'
 
@@ -105,7 +105,7 @@ export default MyComponent
 
 4.1 클래스 밖 설정
 
-```react
+```jsx
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
@@ -128,7 +128,7 @@ export default MyComponent
 
 4.2 클래스 내부 설정 (transform-class-properties)
 
-```react
+```jsx
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
@@ -191,7 +191,7 @@ export default MyComponent
 
 1. State 초기값 설정
 
-```react
+```jsx
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
@@ -229,7 +229,7 @@ export default MyComponent
 
 1. 렌더링
 
-```react
+```jsx
 render(){
     return(
     <div>
@@ -247,7 +247,7 @@ render(){
 
 1. 업데이트
 
-```react
+```jsx
 render(){
     return(
     <div>
@@ -269,7 +269,7 @@ render(){
 
 1. constructor에서 꺼내기 
 
-```react
+```jsx
 import React, { Component } from 'react'
 import propTypes from 'prop-types'
 
@@ -312,7 +312,7 @@ export default MyComponent
 
 ### 잘못된 코드 
 
-```react
+```jsx
 this.state.number = this.state.number + 1
 this.state.someArray.push(3)
 this.state.someObject.value = 3
@@ -435,7 +435,7 @@ componentWillUnmount : 컴포넌트가 웹 브라우저 상에서 사라지기 �
 
 ## render()
 
-```react
+```jsx
 render(){...}
 ```
 
@@ -458,7 +458,7 @@ DOM 정보를 가져오거나 update 시 ComponentDidMount에서 처리
 
 ## Constructor
 
-```react
+```jsx
 constructor(props) {...}
 ```
 
@@ -468,7 +468,7 @@ constructor(props) {...}
 
 ## getDerivedStateFromProps
 
-```react
+```jsx
 static getDerivedStateFromProps(nextProps, prevState) {
   // 조건의 따라 특정 값 동기화 
   /*
@@ -486,7 +486,7 @@ static getDerivedStateFromProps(nextProps, prevState) {
 
 ## componentDidMount
 
-```react
+```jsx
 componentDidMount() {...}
 ```
 
@@ -498,7 +498,7 @@ componentDidMount() {...}
 
 ## shouldComponentUpdate
 
-```react
+```jsx
 shouldComponentUpdate(nextProps, nextState) {...}
 ```
 
@@ -514,7 +514,7 @@ shouldComponentUpdate(nextProps, nextState) {...}
 
 ## getSnapshotBeforeUpdate
 
-```react
+```jsx
 getSnapshotBeforeUpdate(prevProps, prevState) {
     if (prevState.array !== this.state.array) {
       const {
@@ -537,7 +537,7 @@ getSnapshotBeforeUpdate(prevProps, prevState) {
 
 ## componentDidUpdate
 
-```react
+```jsx
 componentDidUpdate(prevProps, prevState, snapshot) {
     if (snapshot) {
       const { scrollTop } = this.list;
@@ -558,7 +558,7 @@ componentDidUpdate(prevProps, prevState, snapshot) {
 
 ## componentWilUnmount
 
-```react
+```jsx
 componentWillUnmount() {...}
 ```
 

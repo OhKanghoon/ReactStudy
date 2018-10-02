@@ -14,7 +14,7 @@
 > | ------- | ---------------------------------------- | ---- | ---------------------------------------- |
 > | 0       | [VSCode React Setting]() |      | [OhKanghoon](https://github.com/OhKanghoon) |
 > | 1       | [JSX](https://github.com/OhKanghoon/ReactStudy/tree/master/1_JSX) |      | [OhKanghoon](https://github.com/OhKanghoon) |
-> | 2       | [3_Props_states_LifeCycle](https://github.com/whitewolf23/ReactStudy/blob/master/3_Props_states_LifeCycle/README.md) |      | [OhKanghoon](https://github.com/whitewolf23) |
+> | 2       | [Props_states_LifeCycle](https://github.com/OhKanghoon/ReactStudy/tree/master/2_Props_states_LifeCycle) |      | [whitewolf23](https://github.com/whitewolf23) |
 > | 3       | [JavaScript ES6, ES7]() |      | []() |
 > | 4       | [React 이벤트 처리, 믹스인, 컴포넌트 구성]() |      | []() |
 > | 5       | [React 배열 렌더링, 다양한 Input]() |      | []() |
