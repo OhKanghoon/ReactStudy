@@ -9,7 +9,6 @@
 * 매주 두 명이 각자 Chapter 한 개씩을 준비합니다.
 
 
-
 * **Section 1: React.js 기초**
 
 > | Chapter | Subject                                  | Note | Presenter                                |
