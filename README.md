@@ -15,7 +15,7 @@
 > | Chapter | Subject                                  | Note | Presenter                                |
 > | ------- | ---------------------------------------- | ---- | ---------------------------------------- |
 > | 1       | [Create React App](https://github.com/OhKanghoon/ReactStudy/blob/master/1_CreateReactApp/README.md) |      | [OhKanghoon](https://github.com/OhKanghoon) |
-
+> | 3       | [Create React App](https://github.com/whitewolf23/ReactStudy/blob/master/3_Props_states_LifeCycle/README.md) |      | [OhKanghoon](https://github.com/whitewolf23) |
 
 * **Section 2: React.js 심화**
 
