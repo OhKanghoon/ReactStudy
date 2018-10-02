@@ -8,21 +8,18 @@
 * `React 기초`, `React 심화` 두개의 Section으로 구성할 예정입니다.
 * 매주 두 명이 각자 Chapter 한 개씩을 준비합니다.
 
-
-
 * **Section 1: React 기초**
 
 > | Chapter | Subject                                  | Note | Presenter                                |
 > | ------- | ---------------------------------------- | ---- | ---------------------------------------- |
 > | 0       | [VSCode React Setting]() |      | [OhKanghoon](https://github.com/OhKanghoon) |
 > | 1       | [JSX](https://github.com/OhKanghoon/ReactStudy/tree/master/1_JSX) |      | [OhKanghoon](https://github.com/OhKanghoon) |
-> | 2       | [Props, State, React Component Life Cycle]() |      | []() |
+> | 2       | [3_Props_states_LifeCycle](https://github.com/whitewolf23/ReactStudy/blob/master/3_Props_states_LifeCycle/README.md) |      | [OhKanghoon](https://github.com/whitewolf23) |
 > | 3       | [JavaScript ES6, ES7]() |      | []() |
 > | 4       | [React 이벤트 처리, 믹스인, 컴포넌트 구성]() |      | []() |
 > | 5       | [React 배열 렌더링, 다양한 Input]() |      | []() |
 > | 6       | [Dom 조작(Ref), React Router]() |      | []() |
 > | 7       | [Networking(Axios)]() |      | [OhKanghoon](https://github.com/OhKanghoon) |
-
 
 * **Section 2: React 심화**
 
