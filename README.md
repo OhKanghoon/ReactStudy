@@ -1,22 +1,27 @@
-# React.js Study <img src = "https://reactjs.org/logo-og.png" width = 150  align = right>
+# React Study <img src = "https://reactjs.org/logo-og.png" width = 150  align = right>
 
-> `React.js`스터디 자료를 정리하는 공간입니다.
+> `React`스터디 자료를 정리하는 공간입니다.
 
 
 ## Curriculum
 
-* `React.js 기초`, `React.js 심화` 두개의 Section으로 구성할 예정입니다.
+* `React 기초`, `React 심화` 두개의 Section으로 구성할 예정입니다.
 * 매주 두 명이 각자 Chapter 한 개씩을 준비합니다.
 
-
-* **Section 1: React.js 기초**
+* **Section 1: React 기초**
 
 > | Chapter | Subject                                  | Note | Presenter                                |
 > | ------- | ---------------------------------------- | ---- | ---------------------------------------- |
-> | 1       | [Create React App](https://github.com/OhKanghoon/ReactStudy/blob/master/1_CreateReactApp/README.md) |      | [OhKanghoon](https://github.com/OhKanghoon) |
+> | 0       | [VSCode React Setting]() |      | [OhKanghoon](https://github.com/OhKanghoon) |
+> | 1       | [JSX](https://github.com/OhKanghoon/ReactStudy/tree/master/1_JSX) |      | [OhKanghoon](https://github.com/OhKanghoon) |
 > | 2       | [3_Props_states_LifeCycle](https://github.com/whitewolf23/ReactStudy/blob/master/3_Props_states_LifeCycle/README.md) |      | [OhKanghoon](https://github.com/whitewolf23) |
+> | 3       | [JavaScript ES6, ES7]() |      | []() |
+> | 4       | [React 이벤트 처리, 믹스인, 컴포넌트 구성]() |      | []() |
+> | 5       | [React 배열 렌더링, 다양한 Input]() |      | []() |
+> | 6       | [Dom 조작(Ref), React Router]() |      | []() |
+> | 7       | [Networking(Axios)]() |      | [OhKanghoon](https://github.com/OhKanghoon) |
 
-* **Section 2: React.js 심화**
+* **Section 2: React 심화**
 
 > | Chapter | Subject                                  | Note | Presenter                                |
 > | ------- | ---------------------------------------- | ---- | ---------------------------------------- |
