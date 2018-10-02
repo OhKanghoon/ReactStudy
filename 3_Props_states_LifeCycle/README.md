@@ -171,13 +171,13 @@ export default MyComponent
 - node
 - elemnt
 - instanceOf(MyClass)
-- oneOf('a','b')
+- oneOf('a','b') : 
 - any
 - ...
 
 
 
-# States(동적)
+# State(동적)
 
 
 
@@ -335,8 +335,81 @@ setState() 매소드 : 파라미터로 전달 받은 필드 업데이트 후 컴
 props를 사용한다고 해서 값이 고정적인것은 아님
 
 - 부모 컴포넌트의 state를 자식 컴포넌트의 props로 전달 
-
 - 자식 컴포넌트에서 특정 이벤트가 발생할 때 부모 컴포넌트의 메소드를 호출하면 props도 유동적 사용 가능
+
+
+
+# class feild 문법 유뮤
+
+```js 
+import React, { Component } from 'react';
+
+class Counter extends Component {
+  state = {
+    number: 0
+  }
+
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      number: 0
+    }
+  }
+
+  ...
+
+ 
+}
+```
+
+- 편의성의 차이 
+  Component를 상속 받으면서 constructor 작성하게 되면, 기존 클래스 생성자를 덮어쓰게 됨.
+  그래서 super(props)를 통해 미리 실행하고, state 를 설정
+- class field와 constructor를 동시 실행시 
+  class 가 먼저 실행
+
+
+
+# Dumb component
+
+```js
+import React from 'react';
+
+const MyName = ({ name }) => {
+  return (
+    <div>
+      안녕하세요! 제 이름은 {name} 입니다.
+    </div>
+  );
+};
+
+export default MyName;
+```
+
+# Smart component( = Class based Component)
+
+```js
+import React from 'react';
+
+class App extends Component {
+  constructor(props){
+    super(props);
+    this.state = {pictures : []};
+  }
+}
+```
+
+- 함수형과 Class Component 의 차이점 
+
+- state, Life Cycle 이 없어서, 컴포넌트 초기 마운트가 미세하게 빠르다. 
+  미세하게 메모리 자원을 덜 사용하고, 수많은 컴포넌트를 사용하는 것이 아니라면 별 차이없음 (약 2만개 정도)
+
+
+
+![스크린샷 2018-10-02 오후 6.41.20](/Users/gimminsu/Desktop/스크린샷 2018-10-02 오후 6.41.20.png)
+
+
 
 
 
@@ -344,9 +417,9 @@ props를 사용한다고 해서 값이 고정적인것은 아님
 
 # LifeCycle(생명주기) (16.3v 이후)
 
-![라이프사이클](./lifeCycle.png)
 
 
+![lifeCycle](/Users/gimminsu/Desktop/lifeCycle.png)
 
 - Wil : 작업 작동 하기 **전**에 실행되는 메소드 
 - Did : 작동 **후**에 실행되는 메소드
@@ -367,7 +440,7 @@ Constructor
 
 
 
--  : 컴포넌트를 새로 만들 때 마다 호출 되는 클래스 생성자 메소드
+- : 컴포넌트를 새로 만들 때 마다 호출 되는 클래스 생성자 메소드
 - getDreviedStateFromProps : props에 있는 값을 동기화 하는 메소드 
 - Render : UI 렌더링 하는 메소드 
 - componentDidMount : 컴포넌트가 웹 브라우저 상에 나타난 후 호출되는 메소드 
@@ -530,7 +603,6 @@ getSnapshotBeforeUpdate(prevProps, prevState) {
 
 - render 메소드 호출 한 후, DOM에 변화를 반영하기 바로 직전!!!! 호출하는 메소드 
 - 스크롤바 위치 유지 활용
-
 - componentDidUpdate 3rd parameter에서 값 전달 받음.
 
 
