@@ -17,7 +17,7 @@
 > | 2       | [Props_states_LifeCycle](https://github.com/OhKanghoon/ReactStudy/tree/master/2_Props_states_LifeCycle) |      | [whitewolf23](https://github.com/whitewolf23) |
 > | 3       | [JavaScript ES6, ES7]() |      | []() |
 > | 4       | [React 이벤트 처리, 믹스인, 컴포넌트 구성]() |      | []() |
-> | 5       | [React 배열 렌더링, 다양한 Input]() |      | []() |
+> | 5       | [React 배열 렌더링, 다양한 Input](https://github.com/OhKanghoon/ReactStudy/tree/master/5_Input_and_Array) |      | [iamcho2](https://github.com/iamcho2) |
 > | 6       | [Dom 조작(Ref), React Router]() |      | []() |
 > | 7       | [Networking(Axios)]() |      | [OhKanghoon](https://github.com/OhKanghoon) |
 
