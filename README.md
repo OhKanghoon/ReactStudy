@@ -25,6 +25,13 @@
 
 > | Chapter | Subject                                  | Note | Presenter                                |
 > | ------- | ---------------------------------------- | ---- | ---------------------------------------- |
+> | 1       | [Redux + Immutable.js]() |      | []()|
+> | 2       | [Redux Middleware]() |      | []()|
+> | 3       | [SSR (Next.js)]() |      | []()|
+> | 4-1       | [TypeScript #1]() |      | []()|
+> | 4-2       | [TypeScript #2]() |      | []()|
+> | 4-3       | [TypeScript #3]() |      | []()|
+> | 5       | [Jest]() |      | []()|
 
 
 ## Contributors
