@@ -92,7 +92,7 @@ console.log(this.divBox)를 하였을떄 아래와 같이 콘솔창에 로그가
 <br> \* react-router는 자동으로 같이 설치됩니다.
   
 
-> #### React-Router를 통해 이용할 수 있는 기능
+> ### React-Router를 통해 이용할 수 있는 기능
 
 React-Router를 통해 이용할 수 있는 기본적인 기능은 다음과 같습니다.
 
@@ -163,7 +163,7 @@ class App extends Component {
 
 
 
-> ## component
+> ### component
 
 경로가 일치하는 경우에 알맞은 Comopnent를 랜더링 해줍니다.
 
@@ -182,7 +182,7 @@ const Temp = () => {
 ```
 
 
-> ## render
+> ### render
 
 component에서 인라인 함수로 랜더링할 때 발생하던 원치않는 마운트 없이 렌더링이나 래핑을 위한 방법.
 ```
@@ -197,7 +197,7 @@ import { Home } from 'pages';
 ```
 
 
-> ## children
+> ### children
 
 경로 일치여부와 상관없이 렌더링을 진행하는 경우 사용한다.
 
@@ -218,7 +218,7 @@ const ListItemLink = ({ to, ...rest }) => (
 ```
 
 
-> ## Route의 기타 속성들 (path, exact, strict)
+> ### Route의 기타 속성들 (path, exact, strict)
 
 - path: path-to-regexp 모듈이 인식할 url경로를 적어줍니다.
 - exact: location.pathname과 정확히 일치할 떄만 매칭됩니다.
@@ -240,7 +240,7 @@ strict의 경우 path가 /react/ 일때,
 ```
 
 
-> ## history, location, match
+> ### history, location, match
 
 각각의 객체는 다음과 같은 정보를 담고 있습니다.
 
@@ -279,7 +279,7 @@ activeStyle = {
 
 
 
-> ## Switch
+> ### Switch
 
 Switch는 기본 역할 자체는 저희가 if, if..else 같은 조건문을 사용할 때 쓰는 Switch와 같은 역할을 합니다.
 
@@ -291,7 +291,7 @@ Switch를 통해 묶어주면 조건에 해당하는 단 하나의 Route만 작�
 
 
 
-> ## 1.Route만 사용했을떄
+> ### 1.Route만 사용했을떄
 ```
 import { React } from 'react'
 
@@ -309,8 +309,7 @@ class Temp extends Component {
 ```
 
 
-> ## 
-w2.Switch를 이용했을 때 
+> ### 2.Switch를 이용했을 때 
 ```
 import { React } from 'react'
 
