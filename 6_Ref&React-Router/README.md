@@ -11,7 +11,7 @@ Reference란 단어 뜻과 마찬가지로 "참조"를 위한 명령어? 속성?
 "이게 무슨소리야?", "뭘 직접접근한다는 거야???"
 
 저도 처음에 뭔 소린지 잘 이해가 가지 않았지만  간단한 예제를 보면서 이해를 도와봅시다.
-```
+```jsx
 import React, { Component } from 'react'
 import './RefSample.css'
 
@@ -51,13 +51,14 @@ class Sample extends Component {
 export default Sample
 ```
 
+
 #### 예제에서 담고있는 내용은 다음과 같습니다.
 
 1. 버튼 이벤트를 발생시켜 inputTag의 값을 변경 시켜주는 것
 
 1. 버튼 이벤트를 발생시켜 State의 값을 변경시켜주는 것 입니다.
 
-```
+```jsx
 ref = { ref => this.divBox = ref }
 ```
 이 부분을 통해서 위에 만들어 놓은 inputTag 변수에 본인 스스로를 불러오는 파라메터 ref를 대입하여 줍니다.
@@ -116,7 +117,7 @@ browser history를 사용해서 구현한 라우터입니다.<br>
 HTML5의 history API(pushState, replaceState, popState)를 활용하여 URL과 화면을 동기화하는 종류 중 하나입니다.
 
 
-```
+```jsx
 import React from 'react'
 import { BrowserRouter, Route } from 'react-router-dom'
 
@@ -135,7 +136,7 @@ class App extends Component {
 
 우선 예제부터 보자.
 
-```
+```jsx
 import React from 'react'
 import { BrowserRouter, Route } from 'react-router-dom'
 
@@ -173,7 +174,7 @@ component 속성으로 인라인 함수를 전달하면 렌더링시 마다 새�
 
 이 방식을 이용하면 기존의 컴포넌트를 갱신하지 않고 언마운트 한 뒤 새로운 컴포넌트를 마운트하게 된다.
 
-```
+```jsx
 <Route paht='/' component={Temp} />
 
 const Temp = () => {
@@ -185,7 +186,7 @@ const Temp = () => {
 > ### render
 
 component에서 인라인 함수로 랜더링할 때 발생하던 원치않는 마운트 없이 렌더링이나 래핑을 위한 방법.
-```
+```jsx
 import { Home } from 'pages';
 
 <Route path="/home" render={
@@ -202,7 +203,7 @@ import { Home } from 'pages';
 경로 일치여부와 상관없이 렌더링을 진행하는 경우 사용한다.
 
 기능은 render와 거의 동일하며 경로에 대한 매칭여부와 상관없이 랜더링 된다.
-```
+```jsx
 <ul>
   <ListItemLink to="/somewhere"/>
   <ListItemLink to="/somewhere-else"/>
@@ -226,7 +227,7 @@ const ListItemLink = ({ to, ...rest }) => (
    
 
 다음과 같이 사용합니다.
-```
+```jsx
 <Route path='/react/study' component={Temp} />
 <Route exact path='/react/study' />
 <Route strict path='/react/study/' />
@@ -252,14 +253,14 @@ Link, NavLInk
 
 Link는 링크해주는 역할만 합니다. 위에서 알아본 to:string, to:object, replace 등의 옵션을 같이 사용할 수 있어요
 
-```
+```jsx
 <Link to='/sopt/react' replace(do or not)> 이렇게 사용합니다. </Link>
 ```
 
 
 NavLink의 경우 Link와 거의 같은 기능을 하지만 이벤트들이  발생했을 때 효과(link style => hover, ative..)를 줄 수 있습니다.
 
-```
+```jsx
 activeStyle = {
     background: blue;
     font-szie: 2rem;  
@@ -292,7 +293,7 @@ Switch를 통해 묶어주면 조건에 해당하는 단 하나의 Route만 작�
 
 
 > ### 1.Route만 사용했을떄
-```
+```jsx
 import { React } from 'react'
 
 class Temp extends Component {
@@ -310,7 +311,7 @@ class Temp extends Component {
 
 
 > ### 2.Switch를 이용했을 때 
-```
+```jsx
 import { React } from 'react'
 
 class Temp extends Component {
