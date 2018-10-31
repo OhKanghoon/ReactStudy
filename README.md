@@ -25,8 +25,8 @@
 
 > | Chapter | Subject                                  | Note | Presenter                                |
 > | ------- | ---------------------------------------- | ---- | ---------------------------------------- |
-> | 1       | [Redux + Immutable.js]() |      | []()|
-> | 2       | [Redux Middleware]() |      | []()|
+> | 1       | [Redux + Immutable.js](https://github.com/OhKanghoon/ReactStudy/tree/master/7_Redux%20-%20Immutable.js) |      | [NohYujeong](https://github.com/NohYujeong)|
+> | 2       | [Redux Middleware]() |      | [](https://github.com/NohYujeong)|
 > | 3       | [SSR (Next.js)]() |      | []()|
 > | 4-1       | [TypeScript #1]() |      | []()|
 > | 4-2       | [TypeScript #2]() |      | []()|
