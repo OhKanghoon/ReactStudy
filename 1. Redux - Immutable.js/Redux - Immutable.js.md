@@ -462,7 +462,7 @@ console.log(nextArr.toJS());
 
 자, 그럼 리액트 컴포넌트에서 Immutable 을 사용해볼까요? state 내부에 하나의 Immutable 객체를 만들어두고, 상태 관리를 모두 이 객체를 통해서 진행하면 됩니다!
 
-```react
+```jsx
 // 객체를 Map으로, users 배열을 List로 정의
 state = {
     data: Map({
