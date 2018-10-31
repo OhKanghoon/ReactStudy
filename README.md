@@ -19,7 +19,6 @@
 > | 4       | [React 이벤트 처리, 믹스인, 컴포넌트 구성](https://github.com/OhKanghoon/ReactStudy/tree/master/4_Event%20Handling_Mixins_Composition) |      | [SujungRim](https://github.com/SujungRim) |
 > | 5       | [React 배열 렌더링, 다양한 Input](https://github.com/OhKanghoon/ReactStudy/tree/master/5_Input_and_Array) |      | [iamcho2](https://github.com/iamcho2) |
 > | 6       | [Dom 조작(Ref), React Router](https://github.com/OhKanghoon/ReactStudy/tree/master/6_Ref&React-Router) |      | [Dongineer](https://github.com/Dongineer) |
-> | 7       | [Networking(Axios)]() |      | [OhKanghoon](https://github.com/OhKanghoon) |
 
 * **Section 2: React 심화**
 
@@ -27,11 +26,12 @@
 > | ------- | ---------------------------------------- | ---- | ---------------------------------------- |
 > | 1       | [Redux + Immutable.js](https://github.com/OhKanghoon/ReactStudy/tree/master/7_Redux%20-%20Immutable.js) |      | [NohYujeong](https://github.com/NohYujeong)|
 > | 2       | [Redux Middleware]() |      | [](https://github.com/NohYujeong)|
-> | 3       | [SSR (Next.js)]() |      | []()|
-> | 4-1       | [TypeScript #1]() |      | []()|
-> | 4-2       | [TypeScript #2]() |      | []()|
-> | 4-3       | [TypeScript #3]() |      | []()|
-> | 5       | [Jest]() |      | []()|
+> | 3       | [Networking(Axios)]() |      | [OhKanghoon](https://github.com/OhKanghoon) |
+> | 4       | [SSR (Next.js)]() |      | []()|
+> | 5-1       | [TypeScript #1]() |      | []()|
+> | 5-2       | [TypeScript #2]() |      | []()|
+> | 5-3       | [TypeScript #3]() |      | []()|
+> | 6       | [Jest]() |      | []()|
 
 
 ## Contributors
