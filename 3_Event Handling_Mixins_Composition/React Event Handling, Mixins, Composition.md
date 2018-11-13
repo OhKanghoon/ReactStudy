@@ -2,7 +2,7 @@
 
 이번 스터디 시간에 다룰 주제는 ...
 
-React의 이벤트 핸들링 방법, 컴포넌트 믹스인, 그리고 컴포넌트 구성 방식이다. 
+React의 이벤트 핸들링 방법, 컴포넌트  믹스인, 그리고 컴포넌트 구성 방식이다. 
 
 
 
@@ -196,7 +196,13 @@ React에서 컴포넌트는 크게 함수형 컴포넌트와 클래스 컴포넌
 
 화살표 함수와 Function.prototype.bind를 사용하는 방식 모두 두번째 인자로 React 이벤트 객체 e를 전달하는데, <u>화살표 함수에서는 명시적으로 표시</u>해야 하는 반면, <u>bind의 경우에는 명시하지 않아도</u> 자동적으로 다음 인자로 추가되어 전달된다.
 
+
+
 >심화
+
+
+
+
 
 ## 믹스인(Mixins)
 
@@ -575,4 +581,134 @@ const Button = ({ className }) => (
 | 예시) Page, Sidebar, Story, UserInfo, List          | 예시) UserPAge, FollowersSidebar, StoryContainer, FollowedUserList |
 
 
+
+> 이번 시간에 다룬 컴포넌트 디자인 패턴은 ''컴포넌트 구성''에 곁들여 개념 정도만 대략적으로 살펴본 것이다.  
+> 컴포넌트 통신까지 공부하고 나서 다룰 내용이 많기 때문에 차후에 자세하게 공부해보는 것이 좋을 것 같다.
+
+
+
+------
+
+## 이벤트 핸들링에 대한 실습
+
+이벤트의 기본 개념과 더불어 심화적인 부분까지 확인해보았는데, 실습을 통해 좀 더 자세히 알아보자.
+
+1. Creating Event
+
+```jsx
+import React, { Component } from 'react';
+
+class App extends Component {
+  state = {
+    input: "",
+    reversedText: ""
+  };
+
+  handleChange = e => {
+    const value = e.target.value;
+    this.setState({
+      input: value
+    });
+  };
+
+  handleReverse = e => {
+    e.preventDefault();
+    const text = this.state.input;
+    this.setState({
+      reversedText: text.split("").reverse().join("")
+    });
+  };
+
+  render() {
+    return (
+      <React.Fragment>
+        <form onSubmit={this.handleReverse}>
+          <div>
+            <label>Text: {this.state.input}</label>
+          </div>
+          <div>
+            <input type="text" value={this.state.input} onChange={this.handleChange} placeholder="Enter a text" />
+          </div>
+          <div>
+            <button>Reverse Text</button>
+          </div>
+        </form>
+        <p>Reversed Text: {this.state.reversedText}</p>
+      </React.Fragment>
+    );
+  }
+}
+
+export default App;
+```
+
+간단하게 이벤트를 만들고 다루는 예제이다. JSX는 크게 사용자로부터 텍스트를 받고 입력받은 텍스트를 거꾸로 만드는 폼, 거꾸로 된 텍스트를 보여주는 부분으로 구성된다. 
+
+
+
+2. 
+
+```jsx
+class App extends Component {
+  state = {
+    count: 0
+  }
+
+  handleIncrement = e => {
+    this.setState({ count: this.state.count + 1})
+  }
+
+  render() {
+    return (
+      <React.Fragment>
+        <h1>{this.state.count}</h1>
+        <IncrementButton increaseButton={this.handleIncrement}/>
+      </React.Fragment>
+    );
+  }
+}
+```
+
+```jsx
+const IncrementButton = (props) => {
+  return (
+    <React.Fragment>
+        <button onClick={props.increaseButton}>+</button>
+    </React.Fragment>
+  )
+}
+```
+
+
+
+3. dnffkdk
+
+```jsx
+class App extends Component {
+  state = {
+    windowWidth: window.innerWidth
+  }
+
+  handleResize = e => {
+    this.setState({ windowWidth: window.innerWidth })
+  }
+
+  componentDidMount() {
+    window.addEventListener('resize', this.handleResize)
+  }
+
+  componentDidUnMount() {
+    window.removeEventListener('resize', this.handleResize)
+  }
+
+  render() {
+    return (
+      <React.Fragment>
+        <h1>Window Width</h1>
+        <h1>{this.state.windowWidth}</h1>
+      </React.Fragment>
+    );
+  }
+}
+```
 
