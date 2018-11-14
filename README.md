@@ -25,10 +25,10 @@
 > | Chapter | Subject                                  | Note | Presenter                                |
 > | ------- | ---------------------------------------- | ---- | ---------------------------------------- |
 > | 1       | [Redux + Immutable.js](https://github.com/OhKanghoon/ReactStudy/tree/master/7_Redux%20-%20Immutable.js) |      | [NohYujeong](https://github.com/NohYujeong)|
-> | 2       | [Redux Middleware]() |      | [](https://github.com/NohYujeong)|
+> | 2       | [Redux Middleware](https://github.com/OhKanghoon/ReactStudy/tree/master/8_Redux%20-%20Middleware) |      | [NohYujeong](https://github.com/NohYujeong)|
 > | 3       | [Networking(Axios)]() |      | [OhKanghoon](https://github.com/OhKanghoon) |
 > | 4       | [SSR (Next.js)]() |      | []()|
-> | 5-1       | [TypeScript #1]() |      | []()|
+> | 5-1       | [TypeScript #1]() | 기본타입~함수 | [SujungRim](https://github.com/SujungRim) |
 > | 5-2       | [TypeScript #2]() |      | []()|
 > | 5-3       | [TypeScript #3]() |      | []()|
 > | 6       | [Jest]() |      | []()|
@@ -39,6 +39,12 @@
 > 스터디 참여자
 
 * [OhKanghoon](https://github.com/OhKanghoon)
+* [whitewolf23](https://github.com/whitewolf23)
+* [Dongineer](https://github.com/Dongineer)
+* [SujungRim](https://github.com/SujungRim)
+* [NohYujeong](https://github.com/NohYujeong)
+* [iamcho2](https://github.com/iamcho2)
+* [kimminzoo](https://github.com/kimminzoo)
 
 
 
