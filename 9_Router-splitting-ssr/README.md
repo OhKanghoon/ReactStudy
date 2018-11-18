@@ -198,7 +198,7 @@ itemhandler = () => {
 
 
 
-![browser-working](.img/browser-working.png)
+![browser-working](./img/browser-working.png)
 
 
 
