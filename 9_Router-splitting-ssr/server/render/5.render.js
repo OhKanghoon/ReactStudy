@@ -1,0 +1,1 @@
+exports.ids=[5],exports.modules={121:function(e,t,n){"use strict";n.r(t);var r=n(0),u=n.n(r);t.default=function(){return u.a.createElement("div",null,"날, 필요할때만 불러.")}}};
