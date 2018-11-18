@@ -248,7 +248,7 @@ CSR을 사용하게 되면 Client에서 HTML을 다운받고 javascript files를
 
 
 
-![mocam](/Users/idongsu/Desktop/mocam.png)
+![mocam](./img/mocam.png)
 
 별거없다. 랜더링 서버랑  API서버를 분리해서 이용한다. 끝.
 
