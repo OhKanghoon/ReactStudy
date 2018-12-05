@@ -1,0 +1,11 @@
+.Menu {
+  width: 500px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.MenuItem {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,1 @@
+exports.ids=[2],exports.modules={118:function(e,t,n){"use strict";n.r(t);var r=n(0),l=n.n(r);t.default=function(){return l.a.createElement("div",null,l.a.createElement("h2",null," 홈 "))}}};
